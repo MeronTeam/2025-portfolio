@@ -1,0 +1,111 @@
+.About {
+	text-align: center;
+	padding: 5rem 0;
+}
+.title-about1 {
+	text-transform: uppercase;
+	color: #111;
+	padding: 1.5rem 4.3rem;
+	border: 7px solid black;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 5rem;
+}
+
+.About .subtitle {
+	text-align: center;
+	font-size: 0.9rem;
+	margin-bottom: 5rem;
+}
+
+.about-btn {
+	border: 10px;
+	text-transform: uppercase;
+	background: none;
+	border: 0;
+	border-left: 3px #111;
+	border-right: 3px #111;
+	border-style: solid;
+	padding: 0.7rem 2rem;
+	transition: .3s ease-in-out;
+	cursor: pointer;
+	font-weight: 700;
+	position: relative;
+}
+
+
+.about-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;              /* boshida ko‘rinmaydi */
+  height: 3px;           /* border qalinligi */
+  background: #111;      /* border rangi */
+  transition: 0.5s ease; /* animatsiya */
+}
+
+.about-btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;              /* boshida ko‘rinmaydi */
+  height: 3px;           /* border qalinligi */
+  background: #111;      /* border rangi */
+  transition: 0.5s ease; /* animatsiya */
+}
+
+.about-btn:hover::before {
+	width: 100%;
+}
+
+.about-btn:hover::after {
+	width: 100%;
+}
+
+.services {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 80px;
+	padding-left: 80px;
+	margin-top: 50px;
+}
+
+.box {
+	position: relative;
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: start !important;
+}
+
+.box h1 {
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	letter-spacing: 5px;
+}	
+
+.box img{
+	position: absolute;
+	top:  -20px;
+	left: -35px;
+}
+
+.box p {
+	text-align: left;
+	font-weight: 200;
+}
+
+.services .box:nth-child(2) img {
+	left: -60px;
+	top: -25px;
+}
+
+.services .box:nth-child(3) img {
+	left: -45px;
+	top: -25px;
+}
+

@@ -1,0 +1,73 @@
+.titleBox .title {
+    color: black;
+    border: 5px solid black;
+    padding: 1.5rem 5.5rem;
+}
+
+.titleBox {
+    background-image: url("./image 12.png");
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    background-color: #1A1A1A;
+    padding: 0.5rem 0;
+}
+
+.projects ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.projects li {
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    cursor: pointer;
+    color: gray;
+}
+
+.projects li::after{
+    width: 180px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    background-color: gray;
+}
+
+.projects li:nth-child(1)::after {
+    background-color: #fff;
+}
+
+.projects li:nth-child(1) {
+    color: #fff;
+}
+
+.p-images a{
+    width: 30%;
+}
+
+.p-images a img {
+    width: 100%;
+}
+
+.p-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.projects p {
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+}

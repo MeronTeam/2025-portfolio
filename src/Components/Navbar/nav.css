@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+	font-family: system-ui, Arial, sans-serif;
+	line-height: 1.4;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  padding: 30px 10.5rem;
+	background: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+	background: linear-gradient(
+    -80deg,    
+    #111 46% ,  /* o‘ng tomoni – to‘qroq rang */
+		#D7D7D7 5%   /* chap tomoni – ochroq rang */
+  );
+  background-repeat: no-repeat;
+  transition: .4s ease-in-out;
+}
+
+
+.nav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  transition: color 0.15s ease;
+	color: #fff;
+}
+
+.nav-right a:hover {
+  color: #ccc;
+}
+
+
+a.btn {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  font-weight: 600;
+	color: #111;
+}
+
+a.btn:hover {
+	color: rgb(76, 76, 76);
+  background: #f3f4f6;
+  transition: .2s ease;
+}
+
+@media (max-width: 640px) {
+  .nav-inner {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+  .nav-right {
+    flex-wrap: wrap;
+  }
+}
+

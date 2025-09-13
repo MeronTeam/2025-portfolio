@@ -1,0 +1,30 @@
+.usable {
+	margin-left: 17rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 100px;
+	width: 60%;
+}
+
+.title-about2{
+    text-align: center !important;
+    display: inline-block;
+    margin-left: 33rem;
+    margin-bottom: 11rem;
+	text-transform: uppercase;
+	color: #111;
+	padding: 1.5rem 4.3rem;
+	border: 7px solid black;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 5rem;
+}
+
+.box-u{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

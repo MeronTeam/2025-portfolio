@@ -1,0 +1,47 @@
+.Footer {
+    background-color: #1A1A1A;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.toTop {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    gap: 10px;
+}
+
+.toTop h3 {
+    letter-spacing: 2.5px;
+    font-size: 16px;
+}
+
+.icon {
+    margin: 0 5px;
+}
+
+.icon-group {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Footer span {
+    margin-left: 10px;
+    font-weight: 200;
+}
+
+.Footer p {
+    margin-top: 20px;
+}
+
+.Footer strong {
+    font-weight: 500;
+}

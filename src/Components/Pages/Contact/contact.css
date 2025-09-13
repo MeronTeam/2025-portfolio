@@ -1,0 +1,58 @@
+#contact {
+    padding-top: 8rem;
+	/* padding-bottom: 3rem; */
+}
+
+
+.c-title {
+    text-align: center !important;
+    display: inline-block;
+    margin-left: 33rem;
+    margin-bottom: 11rem;
+	text-transform: uppercase;
+	color: #111;
+	padding: 1.5rem 4.3rem;
+	border: 7px solid black;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 5rem;
+}
+
+.c-paragraph {
+    text-align: center;
+}
+
+.sparator {
+	display: block;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 5rem;
+}
+
+.input-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.input-group input, textarea {
+	width: 30%;
+	padding: 9px 20px;
+	border: 0;
+	background: none;
+	border-bottom: 4px solid black;
+	border-left: 4px solid black;
+}
+
+.input-group textarea {
+	height: 130px;
+}
+
+.input-group .about-btn {
+	margin: 2rem 0;
+}

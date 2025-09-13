@@ -1,0 +1,72 @@
+.Intro {
+	background-color: #1D1D1D;
+	padding: 2rem 5rem;
+	position: relative;
+	/* height: 17.4rem; */
+}
+
+.title {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 2rem;
+}
+
+.paragraph {
+	color: #fff;
+	line-height: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	width: 75%;
+}
+
+.intro-btn {
+	background-color: #1D1D1D;
+	border: 0;
+	border-left: 3px #fff;
+	border-right: 2px #fff;
+	border-style: solid;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px;
+	font-weight: 600;
+	position: relative;
+	cursor: pointer;
+}
+.Intro img {
+	position: absolute;
+	width: 23%;
+	top: 0;
+	right: 0;
+}
+
+.intro-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;              /* boshida ko‘rinmaydi */
+  height: 2px;           /* border qalinligi */
+  background: #fff;      /* border rangi */
+  transition: 0.5s ease; /* animatsiya */
+}
+
+.intro-btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;              /* boshida ko‘rinmaydi */
+  height: 2px;           /* border qalinligi */
+  background: #fff;      /* border rangi */
+  transition: 0.5s ease; /* animatsiya */
+}
+
+.intro-btn:hover::before {
+	width: 100%;
+}
+
+.intro-btn:hover::after {
+	width: 100%;
+}
